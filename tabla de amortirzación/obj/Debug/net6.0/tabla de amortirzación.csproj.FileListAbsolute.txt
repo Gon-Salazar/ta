@@ -1,0 +1,15 @@
+C:\Users\lenovo\Documents\TRSF\tabla de amortirzación\bin\Debug\net6.0\tabla de amortirzación.exe
+C:\Users\lenovo\Documents\TRSF\tabla de amortirzación\bin\Debug\net6.0\tabla de amortirzación.deps.json
+C:\Users\lenovo\Documents\TRSF\tabla de amortirzación\bin\Debug\net6.0\tabla de amortirzación.runtimeconfig.json
+C:\Users\lenovo\Documents\TRSF\tabla de amortirzación\bin\Debug\net6.0\tabla de amortirzación.dll
+C:\Users\lenovo\Documents\TRSF\tabla de amortirzación\bin\Debug\net6.0\tabla de amortirzación.pdb
+C:\Users\lenovo\Documents\TRSF\tabla de amortirzación\obj\Debug\net6.0\tabla de amortirzación.csproj.AssemblyReference.cache
+C:\Users\lenovo\Documents\TRSF\tabla de amortirzación\obj\Debug\net6.0\tabla de amortirzación.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\Documents\TRSF\tabla de amortirzación\obj\Debug\net6.0\tabla de amortirzación.AssemblyInfoInputs.cache
+C:\Users\lenovo\Documents\TRSF\tabla de amortirzación\obj\Debug\net6.0\tabla de amortirzación.AssemblyInfo.cs
+C:\Users\lenovo\Documents\TRSF\tabla de amortirzación\obj\Debug\net6.0\tabla de amortirzación.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Documents\TRSF\tabla de amortirzación\obj\Debug\net6.0\tabla de amortirzación.dll
+C:\Users\lenovo\Documents\TRSF\tabla de amortirzación\obj\Debug\net6.0\refint\tabla de amortirzación.dll
+C:\Users\lenovo\Documents\TRSF\tabla de amortirzación\obj\Debug\net6.0\tabla de amortirzación.pdb
+C:\Users\lenovo\Documents\TRSF\tabla de amortirzación\obj\Debug\net6.0\tabla de amortirzación.genruntimeconfig.cache
+C:\Users\lenovo\Documents\TRSF\tabla de amortirzación\obj\Debug\net6.0\ref\tabla de amortirzación.dll
