@@ -7,24 +7,27 @@ namespace Consola_Tabla_de_amortizacion
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
-
-            float pago, Interes_pagado, Capital_pagado, Monto_del_prestamo, tasa_interes_anual, tasa_interes_mensual;
+            
+            double pago, Interes_pagado, Capital_pagado, Monto_del_prestamo, tasa_interes_anual, tasa_interes_mensual;
             int  fila, Plazo, i;
 
-            
-            Console.WriteLine("fecha del prestamo");
+            Console.WriteLine("Fecha");
                 var currentDate = DateTime.Now ;
-            Console.WriteLine($"{currentDate:d} at {currentDate:t}!");
+            Console.WriteLine($"{currentDate:d} ");
             Console.ReadKey (true);
+            
+            //Ingrese los siguientes datos
+            
             Console.Write("Introduce el monto del prestamo: ");
-            float.TryParse(Console.ReadLine(), out Monto_del_prestamo);
+            double.TryParse(Console.ReadLine(), out Monto_del_prestamo);
             Console.Write("Introduce la tasa de interes anual: ");
-            float.TryParse(Console.ReadLine(), out tasa_interes_anual);
+            double.TryParse(Console.ReadLine(), out tasa_interes_anual);
             Console.Write("Introduce el plazo en meses: ");
             int.TryParse(Console.ReadLine(), out Plazo);
-            Console.Write("fecha de pago: ");
+             
 
             //Calculo del interes mensual
             tasa_interes_mensual = (tasa_interes_anual / 100) / 12;
@@ -32,17 +35,16 @@ namespace Consola_Tabla_de_amortizacion
 
             //Calculo de la cuota mensual
             pago = tasa_interes_mensual + 1;
-            pago = (float)Math.Pow(pago, Plazo);
+            pago = (double)Math.Pow(pago, Plazo);
             pago = pago - 1;
             pago = tasa_interes_mensual / pago;
             pago = tasa_interes_mensual + pago;
             pago = Monto_del_prestamo * pago;
 
 
-
            
             Console.WriteLine();
-            fila = 1;
+            fila = 0;
             Console.WriteLine();
             Console.WriteLine();
             Console.Write(" Numero de pago \t");
@@ -50,7 +52,7 @@ namespace Consola_Tabla_de_amortizacion
             Console.Write("Intereses Pagados \t\t");
             Console.Write("Capital Pagado \t\t");
             Console.Write("Monto del prestamo \t");
-            Console.WriteLine();
+            Console.Write("fecha a pagar el prestamo \t\t");
             Console.WriteLine();
             Console.Write("\t0");
             Console.WriteLine("\t\t\t\t\t\t\t\t\t\t\t{0}", Monto_del_prestamo);
@@ -79,7 +81,7 @@ namespace Consola_Tabla_de_amortizacion
 
                 fila = fila + 1;
                 Console.WriteLine();
-
+            
             }
             Console.ReadLine();
         }
